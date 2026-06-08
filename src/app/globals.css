@@ -71,3 +71,8 @@
 nextjs-portal {
   display: none;
 }
+
+/* Gallery masonry: keep tiles anchored to the top of each column. */
+.gallery-grid {
+  align-items: start;
+}
